@@ -1,9 +1,8 @@
 title: "#WritingAWrong"
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-source: writingawrong
 destination: _site
-baseurl: ""
+baseurl: /writingawrong
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  tylerlirette
@@ -11,6 +10,9 @@ github_username:  tylerlirette
 # Build settings
 markdown: kramdown
 incremental: true
+
+sass:
+    sass_dir: _sass
 
 jekyll-minifier:
   exclude: '*'
